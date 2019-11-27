@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    text-align: left;
+    background-color: #fafafa;
+    padding-bottom: 0px;
+}
+.bg-dark {
+    background-color: #f8f9fafc!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 16px;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #000000;
+    font-size: 16px;
+    border-bottom: 1px solid #040404;
+    font-family: 'Quicksand', sans-serif;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #030305;
+    font-size: 16px;
+    border-bottom: 1px solid black;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+p {
+    font-family: 'Oswald', sans-serif;
+    text-align: justify;
+    font-weight: 300;
+    color: #404040;
+    padding-top: 25px;
+    line-height: 25px;
+}
+
+
+.featurette-divider {
+    margin: 2px;
+}
+img.slika{
+    width:100%;
+    margin-right: 2%;
+    float: left;
+    padding:3px;
+    border: 1px solid #ccc;
+    height: 200px;
+}
+
+
+.container {
+  margin-top: 20px;
+}
+
+.panel-heading {
+  font-size: larger;
+}
+
+.alert {
+  display: none;
+}
+a {
+    color: #17a2b8;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+a:hover, a:focus {
+    color: #fff;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #fff;
+    border-radius: .25rem;
+}
+.marketing h2 {
+    font-weight: 400;
+    color: #28272c;
+}
+.text-muted {
+    color: #343a40!important;
+    font-size: 32px;
+}
+footer {
+    background: #ddd;
+    color: #1b1e21;
+    padding: 30px 0 20px 0;
+    height: 350px;
+}
+.jumbotron {
+    background: #fafafa url(../img/8.jpg) no-repeat center center;
+    color: #111;
+    height: 380px;
+    overflow: none;
+    background-attachment: fixed;
+    margin-bottom: 0;
+    width: 100%;
+}
+.jumbotron1 {
+    background: #f9f0eb url(../img/9.jpg) no-repeat center center;
+    color: #111;
+    height: 380px;
+    overflow: none;
+    background-attachment: fixed;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.jumbotron2
+{
+    background:#1b222a no-repeat center center;
+    color:#fff;
+    height:450px;
+    overflow:none;
+    
+    width: 100%;
+
+}
+
+p {
+   font-family: 'Open Sans', sans-serif;
+    
+    text-align: justify;
+    font-weight: 300;
+    color: #404040;
+    padding-top: 25px;
+    line-height: 25px;
+}
+body {
+    padding-top: 3rem;
+    /* padding-bottom: 3rem; */
+    color: #111;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #000000;
+    font-size: 16px;
+    border-bottom: 1px solid #040404;
+    font-family: 'Quicksand', sans-serif;
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 16px;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #030305;
+    font-size: 16px;
+    border-bottom: 1px solid black;
+    font-family: 'Quicksand', sans-serif;
+}
+.lead {
+    font-size: 16px;
+    font-weight: 300;
+    color: #495057;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #17a2b8;
+    box-shadow: 1px 1px rgba(255, 255, 255, 0.63);
+}
+.btn-primary {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #721c24;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #495057;
+    color: #464a4e;
+}
+_tables.scss:14
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #818182;
+}
+.table td, .table th {
+    padding: .75rem;
+    color: #17a2b8;
+    vertical-align: top;
+    border-top: 1px solid #818182;
+}
